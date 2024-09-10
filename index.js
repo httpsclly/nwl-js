@@ -1,20 +1,9 @@
-let meta = {
-  value: "Ler um livro todo mês.",
-  checked: true,
-  
-};
-
-
-const criarMeta = () => {}
-
-// function criarMet() {}
-
-let metas = [
-  meta,
-  {
-    value: "caminhar",
-    checked: false
+const start = () => {
+  let count = 1 
+  while(count <= 10) {
+    console.log(count)
+    count = count + 1
   }
-]
+}
 
-console.log(meta.value)
+start()
